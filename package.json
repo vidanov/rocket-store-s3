@@ -1,12 +1,13 @@
 {
   "name": "rocket-store-s3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A very simple and yet powerful file storage in AWS S3",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["storage",
+  "keywords": [
+    "storage",
     "s3",
     "aws",
     "database",
@@ -24,11 +25,20 @@
     "document",
     "record",
     "serverless",
-    "collection"],
+    "collection"
+  ],
   "author": "Simon Rigét, Alexey Vidanov",
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.556.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidanov/rocket-store-s3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vidanov/rocket-store-s3/issues"
+  },
+  "homepage": "https://github.com/vidanov/rocket-store-s3#readme"
 }

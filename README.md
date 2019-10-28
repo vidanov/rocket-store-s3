@@ -272,3 +272,17 @@ rs.delete();
 ---
 
 ## 
+
+(c) Paragi 2017, Simon Riget. 
+
+(c) Vidanov 2019, Alexey Vidanov.
+
+ 
+
+ The original project by Simon Riget uses the local filesystem 
+
+ See https://www.npmjs.com/package/rocket-store
+
+and https://github.com/paragi/rocket-store-node
+
+ License MIT

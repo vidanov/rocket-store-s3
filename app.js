@@ -1,8 +1,6 @@
 // TODO: search objects with wildcards
 // TODO: delete objects with wildcards
 // TODO: securuty encrypting
-// TODO: package as npm
-// TODO: git project
 // TODO: all Rocket-Store functionality
 /*============================================================================*\
   Rocket Store. AWS S3 Edition
@@ -126,7 +124,7 @@ rocketstore.options = async (set_option) => {
     if (typeof set_option.data_storage_area === "string") {
         rocketstore.data_storage_area = set_option.data_storage_area;
     }
-    if (typeof set_option.credentials === "string") {
+    if (typeof set_option.credentials === "object") {
         rocketstore.credentials = set_option.credentials;
     }
     if (typeof set_option.data_storage_domain === "string") {
