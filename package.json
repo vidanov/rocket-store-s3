@@ -1,0 +1,34 @@
+{
+  "name": "rocket-store-s3",
+  "version": "1.0.0",
+  "description": "A very simple and yet powerful file storage in AWS S3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["storage",
+    "s3",
+    "aws",
+    "database",
+    "key",
+    "value",
+    "store",
+    "key-value",
+    "flat",
+    "file",
+    "flat-file",
+    "file-files",
+    "flat file",
+    "filebase",
+    "database",
+    "document",
+    "record",
+    "serverless",
+    "collection"],
+  "author": "Simon Rigét, Alexey Vidanov",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.556.0"
+  },
+  "devDependencies": {}
+}
